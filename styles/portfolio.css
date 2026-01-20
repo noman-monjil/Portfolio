@@ -12,6 +12,11 @@
 
 header{
     background-color: #FFF8F3;
+    padding-top: 50px;
+    background-image: url("../images/developer.png") , url("../images/header_bg.png") ;
+
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
 }
 nav{
     width: 71%;
@@ -56,4 +61,57 @@ nav{
     font-weight: bold;
     font-size: 20px;
     color: white ;
+
+}
+.banner{
+    display: flex;
+    
+    width: 1332px;
+    max-width: 1332px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 38px;
+    margin-top: 36px;
+}
+.banner_content{
+    width: 585px;
+    
+    
+}
+.banner_content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 5px;
+}
+.banner_content h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner_content p{
+    color: #757575;
+    font-weight: 18px;
+    line-height: 30px;
+    margin-bottom: 30px ;
+}
+.banner_image {
+    display: flex;
+}
+.button{
+    display: flex;
+    
+}
+.btn1{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white ;
+    margin-left: 30px;
+    
 }
