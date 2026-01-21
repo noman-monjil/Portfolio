@@ -256,10 +256,97 @@ nav{
   line-height: 28px;
   width: 511px;
   height: 84px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 
 }
 #resume .resume_container .resume_downlaod{
-    margin: 0px auto;
+   margin: 50px;
     text-align: center;
+}
+
+#resume .resume_container .resume_box .resume_card .line{
+    margin-bottom: 30px;
+    color: #D1D1D1;
+    width: 558px;
+    gap: 24px;
+}
+
+
+/* footer section */
+
+footer{
+    margin-top: 114px;
+}
+.footer_section{
+    /* width: 71%; */
+   width: 1600px;
+    height: 780px;
+   
+   
+    background-color: #FFF8F3;
+}
+.footer_section .footer_container{
+    display: flex;
+    /* margin: 0px auto; */
+    
+}
+.footer_container  h2{
+    margin-top: 118px;
+
+}
+.footer_section .footer_container .social {
+    margin-left: 230px;
+}
+.footer_section .footer_container .social h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.footer_section .footer_container .social p{
+   line-height: 28px;
+    font-size: 16px;
+    width: 562px;
+    height: 56px;
+    color: #474747;
+    margin-bottom: 30px;
+    margin-right: 117px;
+}
+.footer_section .footer_container .social .icon img{
+    margin-right: 30.5px;
+}
+.footer_section .footer_container .form h2{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 28px;
+
+}
+.footer_section .footer_container .form {
+    display:flex;
+    flex-direction: column;
+    
+}
+.footer_section .footer_container form input[type="text"] ,.footer_section .footer_container form textarea {
+    width: 416px;
+    padding: 18px 31px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+    
+    
+}
+.footer_section .footer_container .form .submit_button{
+    width: 150px;
+    height: 64px;
+    padding: 12px 30px;
+        background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white ;
+    margin-left: 30px;
+    cursor: pointer;
 }
