@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 /* sheared styles */
+
+
 .btn{
     background-color: #FD6E0A;
     border: none;
@@ -17,6 +19,7 @@
 .section_heading{
     max-width: 827px;
     text-align: center;
+    margin: 0px auto;
 }
 .section_heading p{
        margin-bottom: 30px;
@@ -163,4 +166,100 @@ nav{
     font-size: 20px;
     color: #474747;
     line-height: 30px;
+}
+/* self trysa */
+
+
+
+#skills{
+    padding-top: 130px;
+}
+#skills .skills_container{
+    
+
+    width:71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+#skills .skills_container .skill_box{
+    display: flex;
+     gap: 20px;
+}
+.skill_box .skill_card{
+    padding: 30px;
+   
+    box-shadow: 0px 6px 50px 0px #00000028;
+   
+
+}
+.skill_card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill_card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #181818;
+}
+.skill_card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+
+/* resume section . */
+
+
+#resume{
+    margin-top: 130px;
+
+}
+#resume .resume_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+#resume .resume_container .resume_box{
+
+    display: flex;
+    gap: 20px;
+}
+#resume .resume_container .resume_box .resume_card {
+    width: 585px;
+}
+#resume .resume_container .resume_box .resume_card h2{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+#resume .resume_container .resume_box .resume_card h3{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+#resume .resume_container .resume_box .resume_card h5{
+    color: #757575 ;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+
+}
+#resume .resume_container .resume_box .resume_card p{
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+  width: 511px;
+  height: 84px;
+  margin-bottom: 60px;
+
+}
+#resume .resume_container .resume_downlaod{
+    margin: 0px auto;
+    text-align: center;
 }
