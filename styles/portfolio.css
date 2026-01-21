@@ -47,7 +47,8 @@ header{
     padding-top: 50px;
     background-image: url("../images/developer.png") , url("../images/header_bg.png") ;
 
-    background-position: top left,bottom right;
+    /* background-position: top left,bottom right; */
+    background-position: 23px 38px,bottom right;
     background-repeat: no-repeat;
 }
 nav{
@@ -128,7 +129,7 @@ nav{
     
 }
 .btn1{
-    background-color: #FD6E0A;
+   background-color: #FD6E0A;
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
